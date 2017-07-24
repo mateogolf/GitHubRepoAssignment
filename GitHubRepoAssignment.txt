@@ -1,0 +1,47 @@
+$ cd desktop
+
+$ mkdir GitHubRepoAssignment
+
+$ cd GitHubRepoAssignment
+
+$ git init
+Initialized empty Git repository in C:/Users/Matt/Desktop/GitHubRepoAssignment/.git/
+
+$ touch readme.md
+
+$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        readme.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+$ git add .
+
+$ git commit -m "initial commit"
+[master (root-commit) 4be00d7] initial commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 readme.md
+
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+$ git remote add origin https://github.com/mateogolf/GitHubRepoAssignment.git
+
+$ git push -u origin master
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 255 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/mateogolf/GitHubRepoAssignment.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+Matt@MattPC MINGW64 ~/desktop/GitHubRepoAssignment (master)
+$ touch GitHubRepoAssignment.txt
